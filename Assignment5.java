@@ -20,18 +20,11 @@ public class Assignment5 {
 
 
 	  public WebDriver driver ;
-
-
-
-	  @BeforeTest
+	  @BeforeTest( groups = {"Regression"})
 	  public void setupTest() {
 		  System.setProperty("webdriver.chrome.driver","C:\\Selenium browser driver\\Chromedriver.exe");
-			
-			WebDriver driver = new ChromeDriver();
-	  
-	  
-	  
-	  driver.get("http://zero.webappsecurity.com/");
+			 driver = new ChromeDriver();
+	  	  	  driver.get("http://zero.webappsecurity.com/");
 	  System.out.println("****Launched the browser****");
 	  driver.manage().window().maximize();
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -70,8 +63,8 @@ public class Assignment5 {
 	  String invalidCred = driver.findElement(By.xpath("//span[text()='Invalid credentials']")).getText();
 	  AssertJUnit.assertEquals(invalidCred, "Invalid credentials");
 	  }
-	  @AfterMethod
-	@AfterTest
+	  
+	@AfterTest(groups = {"Regression"})
 	  public void tearDown() {
 	  driver.close();
 	  driver.quit();
