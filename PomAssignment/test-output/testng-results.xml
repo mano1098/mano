@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-13T18:54:38 IST" name="Default suite" finished-at="2022-01-13T18:55:12 IST" duration-ms="33575">
+    <groups>
+    </groups>
+    <test started-at="2022-01-13T18:54:38 IST" name="Default test" finished-at="2022-01-13T18:55:12 IST" duration-ms="33575">
+      <class name="com.qa.zerobank.TestCases.AccountSummaryPageTestCases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.zerobank.TestCases.AccountSummaryPageTestCases@5ba3f27a]" started-at="2022-01-13T18:54:38 IST" name="setup" finished-at="2022-01-13T18:54:45 IST" duration-ms="7033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateAccountSummaryPageTitle()[pri:1, instance:com.qa.zerobank.TestCases.AccountSummaryPageTestCases@5ba3f27a]" started-at="2022-01-13T18:54:45 IST" name="validateAccountSummaryPageTitle" finished-at="2022-01-13T18:54:50 IST" duration-ms="5290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAccountSummaryPageTitle -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.qa.zerobank.TestCases.AccountSummaryPageTestCases@5ba3f27a]" started-at="2022-01-13T18:54:51 IST" name="quit" finished-at="2022-01-13T18:54:51 IST" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.zerobank.TestCases.AccountSummaryPageTestCases@5ba3f27a]" started-at="2022-01-13T18:54:51 IST" name="setup" finished-at="2022-01-13T18:54:55 IST" duration-ms="4007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="payBillsTest()[pri:2, instance:com.qa.zerobank.TestCases.AccountSummaryPageTestCases@5ba3f27a]" started-at="2022-01-13T18:54:55 IST" name="payBillsTest" finished-at="2022-01-13T18:55:01 IST" duration-ms="6350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payBillsTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.qa.zerobank.TestCases.AccountSummaryPageTestCases@5ba3f27a]" started-at="2022-01-13T18:55:01 IST" name="quit" finished-at="2022-01-13T18:55:02 IST" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.zerobank.TestCases.AccountSummaryPageTestCases@5ba3f27a]" started-at="2022-01-13T18:55:02 IST" name="setup" finished-at="2022-01-13T18:55:06 IST" duration-ms="3961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signOutTest()[pri:3, instance:com.qa.zerobank.TestCases.AccountSummaryPageTestCases@5ba3f27a]" started-at="2022-01-13T18:55:06 IST" name="signOutTest" finished-at="2022-01-13T18:55:11 IST" duration-ms="5492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.qa.zerobank.TestCases.AccountSummaryPageTestCases@5ba3f27a]" started-at="2022-01-13T18:55:11 IST" name="quit" finished-at="2022-01-13T18:55:12 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qa.zerobank.TestCases.AccountSummaryPageTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
